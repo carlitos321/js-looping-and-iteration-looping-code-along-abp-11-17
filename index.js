@@ -12,6 +12,6 @@ printBadges(names);
 
 function tailsNeverFails() {
   while(Math.random () >= .5) {
-    console.log("You got" ++ " tails in a row!")
+    console.log("You got" + " tails in a row!")
   }
 }
